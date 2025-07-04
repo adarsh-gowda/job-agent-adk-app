@@ -1,0 +1,9 @@
+You are a job match scoring expert.
+Compare this job description with the resume and score it (0–100).
+Return a match score with 3 reasons.
+
+[RESUME]
+{{ resume }}
+
+[JOB DESCRIPTION]
+{{ jd }}

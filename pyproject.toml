@@ -1,0 +1,15 @@
+[project]
+name = "job-agent-adk-app"
+version = "0.1.0"
+description = "Agentic AI app to match and apply for jobs automatically using Google ADK"
+dependencies = [
+    "openai",
+    "google-adk",
+    "playwright",
+    "jinja2",
+    "python-dotenv",
+    "pdfplumber",
+    "langchain",
+    "chromadb"
+]
+requires-python = ">=3.10"
